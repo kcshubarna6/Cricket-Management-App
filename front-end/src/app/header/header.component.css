@@ -1,0 +1,30 @@
+.header-content{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-logo  img{
+    width: 75px;
+    margin-top: 10px;
+    
+}
+.main-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.main-menu a span{
+   display: inline-block;
+   margin-top:30px;
+}
+
+.action-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.action-menu a span{
+   display: inline-block;
+   margin-top:30px;
+}
