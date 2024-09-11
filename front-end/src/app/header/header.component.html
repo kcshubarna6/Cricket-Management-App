@@ -1,34 +1,104 @@
 <div class="header-content">
     <div class="title">
         <a  class="site-logo" href="http://localhost:4200/" itemprop="image">
-            <img src="assets\images\C.png" alt=" ">
+            <img src="assets\images\Cricket.png" alt=" ">
         </a>
         
     </div>
     <div class="main-menu">
-        <a href="" class="main-menu-link">
-            <span>Team Management</span>
-        </a>
-        <a href="" class="main-menu-link">
-            <span>Club Management</span>
-        </a>
-        <a href="" class="main-menu-link">
-            <span>Resources</span>
-        </a>
+        <div class="first-link">
+            <a  (click)="showTeamManageOption()" class="main-menu-link-1">
+                <span>Team Management</span>
+                <svg class="drop-down" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 550" width="24px" fill="#5f6368">
+                    <path d="M480-360 280-560h400L480-360Z" transform="translate(5, 10)"/>
+                </svg>
+            </a>
+            
+                <div class="team-manage-options">
+                    <a href="">
+                        <p>Home</p>
+                    </a>
+                    <a href="">
+                        <p>Features</p>
+                    </a>
+                   <a href="">
+                    <p>Sports</p>
+                   </a>
+                    <a href="">
+                        <p>Plans</p>
+                    </a>
+                    
+                </div>
+            
+        </div>
+        <div class="second-link">
+            <a (click)=" showClubManageOption()" class="main-menu-link">
+                <span>Club Management</span>
+                <svg class="drop-down" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 550" width="24px" fill="#5f6368">
+                    <path d="M480-360 280-560h400L480-360Z"/>
+                </svg>
+            </a>
+            
+                <div class="club-manage-options">
+                    <a href="">
+                        <p>Home</p>
+                    </a>
+                    <a href="">
+                        <p>Features</p>
+                    </a>
+                   <a href="">
+                    <p>Sports</p>
+                   </a>
+                    <a href="">
+                        <p>Plans</p>
+                    </a>
+                    
+                    </div>
+                    
+           
+        
+            
+
+        </div>
+        <div class="third-link">
+            <a (click)="showResourceOption()" class="main-menu-link">
+                <span>Resources</span>
+                <svg class="drop-down" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 550" width="24px" fill="#5f6368">
+                    <path d="M480-360 280-560h400L480-360Z"/>
+                </svg>
+            </a>
+            
+                <div class="resources-options">
+                   <a href="">
+                    <p>FAQ</p>
+                   </a>
+                   
+                    
+            
+        </div>
+
+        </div>
+        
+        
     </div>
     <div class="action-menu">
-        <a href="" class="main-menu-link">
+        <a href="" class="action-menu-link">
             <span>Log In</span>
         </a>
-        <a href="" class="main-menu-link">
+        <a href="" class="action-menu-link join-team">
             <span>Join a team</span>
         </a>
-        <a href="" class="main-menu-link">
+        <a href="" class="action-menu-link sign-team">
             <span>Sign up my team </span>
         </a>
         
 
        
     </div>
-    
 </div>
+
+
+  
+    
+
+
