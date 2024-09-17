@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -9,6 +9,8 @@ export class HeaderComponent {
   divElementClub :any;
   divElementTeam:any;
   divElementResource:any;
+
+  svgElement:any;
   ngOnInit(){
     this.divElementTeam=document.querySelector(".team-manage-options");
     this.divElementClub=document.querySelector(".club-manage-options");
@@ -19,7 +21,7 @@ export class HeaderComponent {
 
   showTeamManageOption(){
    
-
+    
    this.divElementClub.style.display = "none";
    this.divElementResource.style.display = "none";
 
@@ -27,6 +29,7 @@ export class HeaderComponent {
       this.divElementTeam.style.display = "none";
       console.log("none")
     } else {
+     
       this.divElementTeam.style.display = "flex";
       console.log("flex")
     }
@@ -42,6 +45,7 @@ export class HeaderComponent {
       this.divElementClub.style.display = "none";
       console.log("none")
     } else {
+      
       this.divElementClub.style.display = "flex";
       console.log("flex")
     }
@@ -61,5 +65,9 @@ export class HeaderComponent {
     }
 
   }
+
+
+
+
 
 }

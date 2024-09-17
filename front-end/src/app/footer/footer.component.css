@@ -1,0 +1,39 @@
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px 120px 20px 120px;
+   
+    
+    
+}
+span{
+    color: #030E2F;
+
+}
+a{
+    text-decoration: none;
+    color: #030E2F;
+}
+.footer{
+    background-color: white ;
+}
+.bottom-footer-content{
+    display: flex;
+    gap: 24px;
+    margin-left: 30px;
+    border-top: 2px solid #030e2f;
+    margin-top: 30px;
+}
+.link{
+    margin-top: 20px;
+}
+.social-sites{
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    margin-right: 50px;
+    
+}
+.sites{
+    margin-bottom: 50px;
+}

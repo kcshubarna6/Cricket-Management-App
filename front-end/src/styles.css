@@ -1,4 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     margin: 0;
+    padding: 0;
+    
+    background-color: #030E2F;
+    overflow-x:hidden ;
+    
+    font-family:"Cinzel Decorative", serif;
+    
+}
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }

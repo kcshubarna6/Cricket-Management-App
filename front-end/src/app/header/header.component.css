@@ -2,7 +2,7 @@
     background-color: #030E2F;
     display: flex;
     justify-content: space-around;
-    font-family: "Cinzel Decorative", serif;
+
     font-size: 0.9rem;
     margin-bottom: 0;
     position: fixed;
@@ -57,29 +57,27 @@
     margin-top: 0;
     
    
-    background-color: #030E2F;
+    background-color: white;
     width: 350px;
     display: none;
-    
+
     flex-direction: column;
     align-items: center;
     z-index: -1;
     position: fixed;
-    
-    
     border-radius: 20px;
     margin-top: 90px;
     top: 0;
-    
+  
+
 
     
     
+}
+.options-link{
+    color: #030E2F;
 }
 
 
 
 
-.name{
-    margin-left: 340px;
-    
-}

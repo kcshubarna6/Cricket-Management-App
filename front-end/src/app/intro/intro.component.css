@@ -1,0 +1,247 @@
+.intro{
+    padding: 80px 24px 80px;
+    min-height: 80vh;
+    
+    background-color: #030E2F;
+    color: white;
+    
+}
+.intro-block-container{
+    display: flex;
+    gap: 24px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
+.intro-block-1,.intro-block-2{
+
+    margin: 75px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    
+    
+}
+
+.block-1-buttons{
+    display: flex;
+    gap: 24px;
+}
+.team-button{
+     
+    padding: 8px;
+    background-color: #63C37B;
+    border-radius: 2px;
+    border: 2px solid #63C37B;
+    color: white;
+    font-family:"Cinzel Decorative", serif;
+    
+}
+.team-button:hover,.club-button:hover{
+    background-color: rgba(72, 117, 88, 0.1);
+    border: 2px solid rgba(72, 117, 88, 0.1);
+   transition: 0.8s;
+}
+.club-button{
+    font-family:"Cinzel Decorative", serif;
+    
+    padding: 8px;
+    color: #63C37B;
+  
+ 
+}
+svg{
+    animation: bounce 2s infinite 2s;
+}
+
+
+
+.description-block{
+    background-color: white;
+    padding-bottom: 24px;
+    position: relative;
+    z-index: -1;
+   
+}
+.description{
+    height: 300px;
+    background-color: #F7F7F7;
+    padding: 80px;
+    clip-path: polygon(0 0,0 calc(100% - 80px),100% 100%,100% 0);
+    
+    
+    
+    
+}
+.down-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.figurenumber-description{
+    height: 100%;
+    
+
+    
+    
+}
+.has-text-align-center{
+    text-align: center;
+   
+}
+.key_figures{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.has-text-align-center{
+    font-weight: 400;
+    font-size: 20px;
+    
+    
+}
+.key-figure-number{
+    text-align: center;
+    color: #63C37B;
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+.key-figure-title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding: 0 16px;
+    margin: 0;
+   
+  
+}
+.trust-section{
+    background-color: white;
+    padding:120px;
+    box-sizing: border-box;
+    
+    
+}
+.trust-section h2{
+    margin: 0;
+    
+    color: #030E2F;
+}
+.trust-section p{
+   
+    font-weight: 400;
+  
+    font-size: 1rem;
+    line-height: 24px;
+}
+.trust-block-1{
+    display: grid;
+    grid-template-columns: 1fr 50%;
+}
+.trust-block-content-button-link-1{
+    text-decoration:none ;
+    color: #63C37B;
+   
+    
+
+}
+.trust-block-content-button{
+    margin-bottom: 28px;
+}
+.trust-block-content-button-link-2{
+    text-decoration: none;
+    color: white;
+    background-color: #63C37B ;
+    padding: 10px;
+    border-radius: 3px;
+}
+.trust-block-content-button-link-2:hover{
+    background-color: rgba(42, 86, 57, 0.8);
+    transition: 0.8s;
+
+}
+.trust-block-2{
+    display: grid;
+    grid-template-columns: 1fr 50%;
+}
+.trust-block-content-button-club{
+    display: flex;
+    gap: 25px;
+}
+.link2-club{
+    text-decoration: none;
+    color: #63C37B;
+    padding: 10px;
+    border: 2px solid #63C37B;
+    border-radius: 3px;
+    
+    
+
+}
+.link2-club:hover{
+    background-color: rgba(184, 209, 206, 0.8);
+    transition: 0.8s;
+}
+
+.club-logos-figures{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.clubs-that-trust-us{
+    margin-top: 30px;
+}
+.clubs-that-trust-us h2{
+    text-align: center;
+}
+.our-users-section{
+    background-color: white;
+    position: relative;
+    z-index: -1;
+}
+.our-users-block{
+    background-color: #030E2F;
+    
+    padding: 120px;
+    clip-path: polygon(0 80px,0 100%,100% calc(100% - 80px),100% 0);
+    
+   
+}
+
+.is-title{
+    text-align: center;
+    color: white;
+    
+
+}
+.sub-title-our-users{
+    text-align: center;
+    color: white;
+    
+
+}
+.users-description{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+    
+}
+.users-description-1{
+    display: flex;
+    
+}
+.figure-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F7F7F7;
+}
+.figure img{
+    border-radius: 2px;
+}
+
+
